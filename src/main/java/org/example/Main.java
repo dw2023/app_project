@@ -8,6 +8,7 @@ public class Main {
 
         System.out.println("== 명언 앱 ==");
 
+        int n = 1;
         while (true) {
             System.out.print("명령) ");
             String command = sc.nextLine();
@@ -23,8 +24,8 @@ public class Main {
                 System.out.print("작가 : ");
                 String author = sc.nextLine();
 
-                int num = 1;
-                System.out.println(num + "번 명언이 등록되었습니다.");
+                System.out.println(n + "번 명언이 등록되었습니다.");
+                n++;
             }
         }
         sc.close();
